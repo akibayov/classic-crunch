@@ -3,12 +3,12 @@ name: test
 on: push
 
 jobs:
-  greet:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2-beta
         with:
-          node-version: '15'
+          node-version: 15.x
       - name: Test
         run: npm test

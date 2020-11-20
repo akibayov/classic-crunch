@@ -1,0 +1,8 @@
+# dependencies
+node_modules
+
+# build targets
+dist
+
+# development environment
+.idea
